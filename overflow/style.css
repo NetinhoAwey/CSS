@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    flex-wrap: wrap;
+    margin: 10px;
+    display: flex;
+}
+
+section {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.square {
+    width: 200px;
+    height: 180px;
+}
+
+#scroll {
+    overflow: scroll;
+    background-color: greenyellow;
+}
+
+#hidden {
+    overflow: hidden;
+    background-color: darkgoldenrod;
+}
+
+#auto {
+    overflow: auto;
+    background-color: cornflowerblue;
+}
+
+#visible {
+    overflow: visible;
+    background-color: lightgreen;
+}

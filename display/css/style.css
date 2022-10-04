@@ -1,0 +1,65 @@
+p{
+    color:red;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    width: 45%;
+}
+
+#a
+{
+    background-color: blue;
+}
+
+
+#b
+{
+    position: static;
+    background-color: red;
+}
+
+#c
+{
+    background-color: blue;
+}
+
+#d
+{
+    position: relative;
+    top: -50px;
+    left: 150px;
+    background-color: red;
+}
+
+
+#e
+{
+    background-color: blue;
+}
+
+#f
+{
+    position: absolute;    
+    top: 400px;
+    left: 85px;
+    background-color: red;
+}
+
+#g
+{
+    position: fixed;
+    top: 350px;
+    left: 500px;
+    background-color: blue;
+}
